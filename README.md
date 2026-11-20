@@ -1,8 +1,9 @@
 ## EXPERIMENT NO. 3 – STAIRCASE WIRING
 
-| **Name:** | | **Reg. No.:** | |
+| **Name: PERARASSU K** |  | **Reg. No.: 212225100034** |  |
 |---|---|---|---|
-| **Date:** | | **Batch / Section:** | |
+| **Date: 4-11-2026** | | **Batch / Section: 26OD2200** | |
+
 
 ---
 
@@ -47,7 +48,7 @@ To control the status of the given lamp by using two-way switches.
 
 ### Circuit diagram
 
-*[ Insert the direct connection circuit diagram here ]*
+<img width="1095" height="550" alt="Direct connection" src="https://github.com/user-attachments/assets/68e8476b-f1f3-4b99-96f6-9fc0c8406d44" />
 
 **Figure 1:** Staircase wiring – direct connection
 
@@ -55,18 +56,18 @@ To control the status of the given lamp by using two-way switches.
 
 *Enter the switch position as UP / DOWN (or 1 / 0) and the lamp status as ON / OFF for each combination.*
 
-| S. No. | Switch S1 position | Switch S2 position | Lamp status (ON / OFF) |
-|:---:|:---:|:---:|:---:|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
+| Switch 1 Position | Switch 2 Position | Lamp Status |
+|------------------|--------------------|-------------|
+|         0        |         0          |    ON       |
+|         0        |         1          |    OFF      |         
+|         1        |         0          |    OFF      |
+|         1        |         1          |    ON       |  
 
 ## B. CROSS CONNECTION
 
 ### Circuit diagram
 
-*[ Insert the cross connection circuit diagram here ]*
+<img width="998" height="444" alt="2 way switch" src="https://github.com/user-attachments/assets/6e7bcbd5-d300-44d1-9d5e-4ac69eab1963" />
 
 **Figure 2:** Staircase wiring – cross connection
 
@@ -74,12 +75,12 @@ To control the status of the given lamp by using two-way switches.
 
 *Enter the switch position as UP / DOWN (or 1 / 0) and the lamp status as ON / OFF for each combination.*
 
-| S. No. | Switch S1 position | Switch S2 position | Lamp status (ON / OFF) |
-|:---:|:---:|:---:|:---:|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
+| Switch 1 Position | Switch 2 Position | Lamp Status |
+|------------------|--------------------|-------------|
+|         0        |         0          |    OFF      |
+|         0        |         1          |    ON       |                                 
+|         1        |         0          |    ON       |                                 
+|         1        |         1          |    OFF      |
 
 ## SIMULATION USING PROTEUS
 
@@ -87,13 +88,13 @@ Build both the direct and cross connection circuits in Proteus using an AC sourc
 
 ### A. Direct connection – simulation
 
-*[ Paste the Proteus direct connection simulation screenshot here ]*
+<img width="1095" height="550" alt="Direct connection" src="https://github.com/user-attachments/assets/68e8476b-f1f3-4b99-96f6-9fc0c8406d44" />
 
 **Figure 3:** Proteus simulation – direct connection
 
 ### B. Cross connection – simulation
 
-*[ Paste the Proteus cross connection simulation screenshot here ]*
+<img width="998" height="444" alt="2 way switch" src="https://github.com/user-attachments/assets/6e7bcbd5-d300-44d1-9d5e-4ac69eab1963" />
 
 **Figure 4:** Proteus simulation – cross connection
 
